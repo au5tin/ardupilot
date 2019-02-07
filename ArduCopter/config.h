@@ -362,6 +362,12 @@
 #endif
 
 //////////////////////////////////////////////////////////////////////////////
+// NewMode - testing a new mode for ardupilot
+#ifndef MODE_NEW_MODE_ENABLED
+# define MODE_NEW_MODE_ENABLED ENABLED
+#endif
+
+//////////////////////////////////////////////////////////////////////////////
 // Beacon support - support for local positioning systems
 #ifndef BEACON_ENABLED
 # define BEACON_ENABLED !HAL_MINIMIZE_FEATURES
